@@ -10,7 +10,7 @@ spec:
     targetRevision: x
     helm:
       valueFiles:
-        - $values/01_WIKI/values.yaml
+        - $values/1_WIKI/values_wiki.yaml
   - repoURL: 'https://github.com/YannickVandereycken/kubernetes-deployment.git'
     targetRevision: main
     ref: values
